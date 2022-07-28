@@ -1,0 +1,57 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+/* Hero section */
+
+.hero__container {
+  background-image: url("https://www.strongdm.com/hubfs/Imported_Blog_Media/5f1d57d11bda1c9bb207d753_00124-sdm-bg-2000x1000-3.jpg");
+
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text over the image */
+.navbar__container {
+  position: absolute;
+  margin: 3vh 0;
+}
+
+.navbar__logo {
+    float: left;
+    width: 30vw;
+    margin-left: 12vw;
+    font-size: 1.5rem;
+}
+
+.navbar__links {
+    float: right;
+    margin-left: 15vw;
+}
+
+#navbar_link:hover {
+color: #FFD662FF;
+}
+
+.navbar__link {
+  list-style: none;
+  color: white;
+  text-decoration: none;
+  padding: 0 .5vw;
+}
+
+/* no
+RGBA
+Box Shadow
+Opacity
+Rounded Corners
+Attributes Selectors
+Gradient Colors
+Flex
+MQ -- not sure
+*/
