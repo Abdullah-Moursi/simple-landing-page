@@ -28,10 +28,6 @@ html {
   font-size: 1.5rem;
 }
 
-.navbar__slogan > a {
-  color: #ffd662ff;
-}
-
 .navbar__links {
   float: right;
   margin-left: 15vw;
@@ -164,6 +160,7 @@ html {
 #third__section-contents-first__element {
   float: left;
   color: #0c69c7;
+  cursor: pointer;
   text-decoration: underline;
 }
 
@@ -234,7 +231,7 @@ html {
   background-color: transparent;
   color: white;
   float: left;
-  padding: 0.5em 1em;
+  padding: 0.5em 2em;
   border: 0.01em solid white;
   cursor: pointer;
 }
@@ -244,6 +241,7 @@ html {
   padding-top: 7vh;
   height: 20vh;
   background-color: #f1f5f9;
+  color: #6c6c6e;
 }
 
 /* People Section */
@@ -289,6 +287,11 @@ html {
   padding-left: 5vw;
 }
 
+.eighth__section-title > h2 {
+  padding-bottom: 1.5vh;
+  padding-top: 0.5vh;
+}
+
 .eighth__section-title > p {
   color: #6c6c6e;
   max-width: 60ch;
@@ -306,6 +309,7 @@ html {
 
 #eighth__section-subtitle-first {
   border-bottom: 0.3em solid #65049ed9;
+  padding-top: 2vh;
 }
 
 #eighth__section-subtitle-second {
@@ -320,11 +324,13 @@ html {
 .nineth__section__container {
   margin: 13vh 0;
   min-height: 15vh;
+  color: #6c6c6e;
 }
 
 /* Tenth Section */
 .tenth__section-cotainer {
   height: 45vh;
+  margin-bottom: 12vh;
   padding: 7vh 10vw;
 }
 
@@ -393,8 +399,8 @@ html {
 }
 
 #eleventh__section-subtitle {
-  max-width: 70ch;
-  padding: 9vh 0 3vh 27vw;
+  max-width: 120ch;
+  padding: 9vh 0 3vh 12vw;
 }
 
 #eleventh__anchorTag {
@@ -404,8 +410,8 @@ html {
 
 /* Twelfth Section */
 .twelfth__section-container {
-  height: 45vh;
-  padding: 9vh 10vw 0 10vw;
+  height: 47vh;
+  padding: 6vh 10vw 0 10vw;
 }
 
 .twelfth__section-title {
@@ -424,12 +430,13 @@ html {
 
 .twelfth__section-img__container {
   float: left;
+  padding-top: 8vh;
   height: 100%;
 }
 
 .twelfth__section-img__container > img {
   width: 20vw;
-  height: 98%;
+  height: 82%;
 }
 
 .twelfth__section-title-img__container {
@@ -479,7 +486,7 @@ html {
 }
 
 .progress__title-container > h2 {
-  padding-left: 1.3vw;
+  padding-left: 2.5vw;
   margin-bottom: 0;
 }
 
@@ -489,8 +496,8 @@ html {
 }
 
 .progress__img {
-  max-height: 80%;
-  max-width: 90%;
+  height: 20vh;
+  width: 30%;
   padding-left: 10vw;
 }
 
@@ -571,15 +578,3 @@ html {
 #footer__column-third > ul > li:hover {
   color: white;
 }
-
-/* no
-RGBA
-Box Shadow
-Opacity
-Rounded Corners
-Attributes Selectors
-Gradient Colors
-Flex
-Grid
-MQ -- not sure
-*/
