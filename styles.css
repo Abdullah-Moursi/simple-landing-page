@@ -71,11 +71,6 @@ html {
   min-width: 33vw;
 }
 
-/* .first__section-section > p {
-max-width: 20ch; 
-text-overflow: ellipsis;
-} */
-
 #first__section-first__section {
   float: right;
 }
@@ -146,6 +141,136 @@ text-overflow: ellipsis;
 #second__section__discription-btn {
   float: right;
 }
+
+/* Footer */
+
+/* Sponsers section */
+.sponsers__container {
+  max-height: 20vh;
+  padding: 5vh 5vw;
+  background-color: #f1f5f9;
+  text-align: center;
+}
+
+.sponser__img {
+  max-width: 15vw;
+  max-height: 15vh;
+  padding: 0 4vw;
+}
+
+/* Progress section */
+.progress__container {
+  min-height: 20vh;
+  background-color: #0c69c7;
+}
+
+.progress__title-container {
+  padding-top: 3.5vh;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  float: left;
+}
+
+.progress__title-container > h2 {
+  padding-left: 1.3vw;
+  margin-bottom: 0;
+}
+
+.progress__img-container {
+  width: 50%;
+  float: right;
+}
+
+.progress__img {
+  max-height: 80%;
+  max-width: 90%;
+  padding-left: 10vw;
+}
+
+/* Footer body */
+.footer__container {
+  min-height: 40vh;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer__column-container {
+  text-align: center;
+  width: 33vw;
+}
+
+.footer__column-container > h3 {
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+
+.footer__column-container > p {
+  text-align: left;
+  max-width: 52ch;
+  float: right;
+  color: #c1c1c2;
+}
+
+#footer__column-first {
+  float: left;
+  padding-top: 1vh;
+}
+
+#footer__column-first > h3 {
+  padding-right: 10vw;
+}
+
+#footer__column-first > p {
+  padding-right: 5.2vw;
+}
+
+#first__footer__column-footer {
+  padding-top: 18%;
+  margin-right: 2.9vw;
+}
+
+#footer__column-second {
+  float: right;
+}
+
+#second__footer__column-first,
+#second__footer__column-third {
+  text-align: left;
+  padding-right: 25%;
+}
+
+#second__footer__column-second {
+  max-width: 43ch;
+  padding-right: 11.2%;
+}
+
+#footer__column-third {
+  float: right;
+}
+
+#footer__column-third > ul {
+  list-style: none;
+}
+
+#footer__column-third > ul > li {
+  color: #c1c1c2;
+  line-height: 1.7em;
+  text-align: left;
+  cursor: pointer;
+
+  padding-left: 32%;
+}
+
+#footer__column-third > ul > li:hover {
+  color: white;
+}
+
+
+
+
+
+
 
 /* no
 RGBA
