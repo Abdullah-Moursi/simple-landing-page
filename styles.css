@@ -292,6 +292,65 @@ html {
   min-height: 15vh;
 }
 
+/* Tenth Section */
+.tenth__section-cotainer {
+  height: 45vh;
+  padding: 7vh 10vw;
+}
+
+.tenth__section-column {
+  width: 26vw;
+}
+
+.tenth__section-title {
+  background-color: #f1f5f9;
+}
+
+.tenth__section-title > h3,
+.tenth__section-title > p,
+.tenth__section-title > a {
+  padding-left: 1vw;
+}
+
+.tenth__section-title > h3 {
+  padding-top: 4vh;
+}
+
+.tenth__section-title > p {
+  max-width: 53ch;
+}
+
+.tenth__section-title > a {
+  color: #0c69c7;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 2vh;
+}
+
+.tenth__section-column > img,
+.tenth__section-title {
+  width: 95%;
+  height: 22vh;
+  margin-bottom: 1.8vh;
+}
+
+.tenth__section-title > h3 {
+  margin: 0;
+}
+
+#tenth__section-column-first {
+  float: left;
+}
+
+#tenth__section-column-second {
+  float: right;
+  margin-right: 0.5vw;
+}
+
+#tenth__section-column-third {
+  float: right;
+}
+
 /* People Section */
 .people__container {
   height: 40vh;
