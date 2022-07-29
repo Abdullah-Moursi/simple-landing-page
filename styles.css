@@ -246,11 +246,6 @@ html {
   background-color: #f1f5f9;
 }
 
-/* People Section */
-.people__container {
-  height: 40vh;
-}
-
 /* Eighth Section */
 .eighth__section-container {
   height: 25vh;
@@ -276,19 +271,30 @@ html {
 }
 
 .eighth__section-description > h3 {
-  padding-bottom: .6em;
+  padding-bottom: 0.6em;
 }
 
 #eighth__section-subtitle-first {
-  border-bottom: .3em solid #65049ed9;
+  border-bottom: 0.3em solid #65049ed9;
 }
 
 #eighth__section-subtitle-second {
-  border-bottom: .3em solid #373ad3d9;
+  border-bottom: 0.3em solid #373ad3d9;
 }
 
 #eighth__section-subtitle-third {
-  border-bottom: .3em solid #9e046bd9;
+  border-bottom: 0.3em solid #9e046bd9;
+}
+
+/* Nineth Section  */
+.nineth__section__container {
+  margin: 13vh 0;
+  min-height: 15vh;
+}
+
+/* People Section */
+.people__container {
+  height: 40vh;
 }
 
 .person {
