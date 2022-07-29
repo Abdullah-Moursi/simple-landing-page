@@ -399,7 +399,53 @@ html {
 
 #eleventh__anchorTag {
   font-weight: bolder;
-font-size: larger;
+  font-size: larger;
+}
+
+/* Twelfth Section */
+.twelfth__section-container {
+  height: 45vh;
+  padding: 9vh 10vw 0 10vw;
+}
+
+.twelfth__section-title {
+  float: left;
+  width: 50vw;
+}
+
+.twelfth__section-title > h1 {
+  font-size: 3rem;
+}
+
+.twelfth__section-title > p {
+  color: #c1c1c2;
+  max-width: 90ch;
+}
+
+.twelfth__section-img__container {
+  float: left;
+  height: 100%;
+}
+
+.twelfth__section-img__container > img {
+  width: 20vw;
+  height: 98%;
+}
+
+.twelfth__section-title-img__container {
+  padding-top: 8vh;
+}
+
+.twelfth__section-title-img-description {
+  padding-left: 3vw;
+  color: #c1c1c2;
+  font-weight: bold;
+}
+
+.twelfth__section-title-img__container > img {
+  width: 3em;
+  height: 3em;
+  float: left;
 }
 
 /* Footer */
