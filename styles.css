@@ -246,6 +246,36 @@ html {
   background-color: #f1f5f9;
 }
 
+/* People Section */
+.people__container {
+  height: 40vh;
+}
+
+.person {
+  width: 25%;
+}
+
+.person > img {
+  height: 40vh;
+  width: 100%;
+}
+
+#person__img-first {
+  float: left;
+}
+
+#person__img-second {
+  float: right;
+}
+
+#person__img-third {
+  float: right;
+}
+
+#person__img-fourth {
+  float: right;
+}
+
 /* Eighth Section */
 .eighth__section-container {
   height: 25vh;
@@ -320,7 +350,7 @@ html {
   max-width: 53ch;
 }
 
-.tenth__section-title > a {
+.anchorTag {
   color: #0c69c7;
   cursor: pointer;
   display: inline-block;
@@ -351,34 +381,25 @@ html {
   float: right;
 }
 
-/* People Section */
-.people__container {
-  height: 40vh;
+/* Eleventh Section */
+.eleventh__section__container {
+  padding-top: 10vh;
+  height: 50vh;
+  background-color: #f1f5f9;
 }
 
-.person {
-  width: 25%;
+#eleventh__section-title {
+  color: #6c6c6e;
 }
 
-.person > img {
-  height: 40vh;
-  width: 100%;
+#eleventh__section-subtitle {
+  max-width: 70ch;
+  padding: 9vh 0 3vh 27vw;
 }
 
-#person__img-first {
-  float: left;
-}
-
-#person__img-second {
-  float: right;
-}
-
-#person__img-third {
-  float: right;
-}
-
-#person__img-fourth {
-  float: right;
+#eleventh__anchorTag {
+  font-weight: bolder;
+font-size: larger;
 }
 
 /* Footer */
