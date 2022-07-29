@@ -235,15 +235,45 @@ html {
   color: white;
   float: left;
   padding: 0.5em 1em;
-  border: .01em solid white;
+  border: 0.01em solid white;
   cursor: pointer;
 }
 
 /* Sixth Section */
 .sixth__section__container {
   padding-top: 7vh;
- height: 20vh;
+  height: 20vh;
   background-color: #f1f5f9;
+}
+
+/* People Section */
+.people__container {
+  height: 40vh;
+}
+
+.person {
+  width: 25%;
+}
+
+.person > img {
+  height: 40vh;
+  width: 100%;
+}
+
+#person__img-first {
+  float: left;
+}
+
+#person__img-second {
+  float: right;
+}
+
+#person__img-third {
+  float: right;
+}
+
+#person__img-fourth {
+  float: right;
 }
 
 /* Footer */
