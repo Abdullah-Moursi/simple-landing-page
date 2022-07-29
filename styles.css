@@ -251,6 +251,46 @@ html {
   height: 40vh;
 }
 
+/* Eighth Section */
+.eighth__section-container {
+  height: 25vh;
+  background-color: #f1f5f9;
+  padding: 5vh 8vw;
+}
+
+.eighth__section-title {
+  float: left;
+  width: 43%;
+  padding-left: 5vw;
+}
+
+.eighth__section-title > p {
+  color: #6c6c6e;
+  max-width: 60ch;
+}
+
+.eighth__section-description {
+  float: right;
+  width: 40%;
+  padding-right: 7vw;
+}
+
+.eighth__section-description > h3 {
+  padding-bottom: .6em;
+}
+
+#eighth__section-subtitle-first {
+  border-bottom: .3em solid #65049ed9;
+}
+
+#eighth__section-subtitle-second {
+  border-bottom: .3em solid #373ad3d9;
+}
+
+#eighth__section-subtitle-third {
+  border-bottom: .3em solid #9e046bd9;
+}
+
 .person {
   width: 25%;
 }
